@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MTB Adventures</title>
+  <link rel="stylesheet" href="SCRATCH.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto py-4 py-lg-0">
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="skills.html">Skills/Attributes</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="experience.html">Experience/School</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="awards.html">Awards/Accomplishments</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="SCRATCH.html">MTB Adventures</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="snake.html">Snake Game</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER DIV -->
+  <div class="header">
+    <h1 id="top">MTB Adventures</h1>
+    <img src="assets/img/MTNBike1.jpg" alt="Mountain biking scenery" class="hero-img">
+  </div>
+
+  <!-- Anchor Link -->
+  <p style="text-align: center;"><a href="#video">Go to Video</a></p>
+
+  <!-- MAIN CONTENT DIV -->
+  <div class="content">
+    <h2>Why I Love Mountain Biking</h2>
+    <p>Mountain biking gives me freedom, adrenaline, and a deep connection to nature. Nothing beats shredding downhill trails or climbing rocky switchbacks.</p>
+
+    <h3 id="gear">Essential Gear</h3>
+    <ol>
+      <li>Bike Types
+        <ul>
+          <li>Hardtail</li>
+          <li>Full Suspension</li>
+          <li>Fat Bikes</li>
+        </ul>
+      </li>
+      <li>Protective Equipment
+        <ul>
+          <li>Helmet</li>
+          <li>Gloves</li>
+          <li>Knee Pads</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h3 id="video">Check Out This MTB Clip</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3FqZN52sRbU" title="MTB Adventure Video" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <!-- Tableau Dashboard Section -->
+  <div class="tableau-container">
+    <h2>Ride Analytics</h2>
+    <p>Explore data from my mountain biking adventures using this Tableau dashboard:</p>
+
+    <div class='tableauPlaceholder' id='viz1745457512074' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Dashboard 2 ' src='https://public.tableau.com/static/images/Mo/MountainBikeRideAnalyticsridefordata_0/Dashboard2/1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='MountainBikeRideAnalyticsridefordata_0/Dashboard2' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/Mo/MountainBikeRideAnalyticsridefordata_0/Dashboard2/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1745457512074');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = '800px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+</body>
+</html>
