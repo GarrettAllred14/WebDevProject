@@ -2,9 +2,10 @@
 .header {
   text-align: center;
   margin-bottom: 20px;
-  position: relative;
+  position: relative; /* Specifies positioning for the header div */
 }
 
+/* Hero image styles */
 .hero-img {
   width: 100%; /* Make the image responsive */
   height: auto; /* Maintain the aspect ratio */
@@ -17,25 +18,28 @@
   padding: 20px;
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  position: relative; /* Specifies positioning for the content div */
 }
 
-h1, h2, h3 {
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f4f4f4;
   color: #333;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
 }
 
-p {
-  color: #555;
-}
-
-ol, ul {
-  margin-left: 20px;
-}
-
-a {
-  color: #007BFF;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+/* Sidebar styles */
+.sidebar {
+  position: absolute; /*Specifies absolute positioning for the sidebar div */
+  top: 100px;
+  left: 10px;
+  width: 200px;
+  padding: 10px;
+  background-color: #e8f4fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
